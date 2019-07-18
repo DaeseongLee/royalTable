@@ -16,7 +16,8 @@
 			<value>org.mariadb.jdbc.Driver</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mariadb://localhost:3306/model1</value>
+			<!-- <value>jdbc:mariadb://192.168.0.72:3306/royaltable</value>-->
+			<value>jdbc:mariadb://192.168.0.89:3306/royaltable</value>
 		</property>
 		<property name="user">
 			<value>model1</value>
