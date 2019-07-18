@@ -8,14 +8,13 @@ error.login.password=비밀번호를 확인하세요.
 error.login.emptyId=존재하지 않는 아이디입니다.
 error.user.update=회원 정보 수정이 실패하였습니다. 전산부 전화요망(전화:1234)
 
-error.required.userName=이름을 입력해 주세요
-error.required.postcode=우편번호를 입력해 주세요
+error.required.name=이름을 입력해 주세요
+error.required.gender=성별을 선택해 주세요
 error.required.address=주소를 입력해 주세요
-error.required.phoneNo=전화번호를 입력해 주세요
+error.required.phoneNum=전화번호를 입력해 주세요
 error.required.email=E-MAIL을 입력해 주세요
 user.userId.default=로그인 시 필요합니다.
-user.userName.default=배송 시 필요합니다.
-typeMismatch.birthDay=생년월일은 YYYY-MM-DD 형식으로 입력해 주세요
+user.name.default=배송 시 필요합니다.
 error.duplicate.user=중복된 아이디입니다
 error.board.password=비밀번호가 틀림니다
  

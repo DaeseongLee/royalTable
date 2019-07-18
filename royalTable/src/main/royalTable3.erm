@@ -12,7 +12,7 @@
 	<category_index>0</category_index>
 	<zoom>0.8</zoom>
 	<x>0</x>
-	<y>0</y>
+	<y>236</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -64,9 +64,9 @@
 					<drop_view>false</drop_view>
 					<inline_column_comment>true</inline_column_comment>
 					<inline_table_comment>true</inline_table_comment>
-					<comment_value_description>true</comment_value_description>
+					<comment_value_description>false</comment_value_description>
 					<comment_value_logical_name>false</comment_value_logical_name>
-					<comment_value_logical_name_description>false</comment_value_logical_name_description>
+					<comment_value_logical_name_description>true</comment_value_logical_name_description>
 					<comment_replace_line_feed>false</comment_replace_line_feed>
 					<comment_replace_string></comment_replace_string>
 				</ddl_target>
@@ -135,7 +135,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2019-07-11 18:54:58</creation_date>
-			<updated_date>2019-07-15 14:09:22</updated_date>
+			<updated_date>2019-07-15 16:53:53</updated_date>
 			<model_property>
 				<name>프로젝트명</name>
 				<value></value>
@@ -3100,7 +3100,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>25</word_id>
+					<word_id>26</word_id>
 					<id>47</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -3701,7 +3701,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>26</word_id>
+					<word_id>25</word_id>
 					<id>61</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
