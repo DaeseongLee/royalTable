@@ -2,7 +2,15 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
+		<typeAlias type="logic.Ingre" alias="Ingre"/>
+		<typeAlias type="logic.Menu" alias="Menu"/>
+		<typeAlias type="logic.User" alias="User"/>
+		<typeAlias type="logic.Cart" alias="Cart"/>
 	</typeAliases>
 	<mappers>
+		<mapper resource="dao/mapper/Ingre.xml"/>
+		<mapper resource="dao/mapper/Menu.xml"/>
+		<mapper resource="dao/mapper/User.xml" />
+		<mapper resource="dao/mapper/Cart.xml" />
 	</mappers>
 </configuration>

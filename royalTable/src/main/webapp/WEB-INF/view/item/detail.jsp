@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Á¦Ç°»ó¼¼Á¤º¸</title>
+<title>ì œí’ˆìƒì„¸ì •ë³´</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -46,7 +46,7 @@ $(function(){
 
 
 	if(num<=0){
-	alert('´õÀÌ»ó ÁÙÀÏ¼ö ¾ø½À´Ï´Ù.');
+	alert('ë”ì´ìƒ ì¤„ì¼ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	num =1;
 	}
 	var price2 = price*num;
@@ -62,7 +62,7 @@ $(function(){
 	num++;
 	
 	if(num>5){
-	alert('´õÀÌ»ó ´Ã¸±¼ö ¾ø½À´Ï´Ù.');
+	alert('ë”ì´ìƒ ëŠ˜ë¦´ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	num=5;
 	}
 	
@@ -80,7 +80,7 @@ $(function(){
 		num++;
 		
 		if(num>5){
-		alert('´õÀÌ»ó ´Ã¸±¼ö ¾ø½À´Ï´Ù.');
+		alert('ë”ì´ìƒ ëŠ˜ë¦´ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		num=5;
 		}
 		
@@ -97,7 +97,7 @@ $(function(){
 		var num = parseInt(stat,10);
 		num--;
 		if(num<=0){
-		alert('´õÀÌ»ó ÁÙÀÏ¼ö ¾ø½À´Ï´Ù.');
+		alert('ë”ì´ìƒ ì¤„ì¼ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		num =1;
 		}
 		$('#numberMainUpDown').text(num);
@@ -113,7 +113,7 @@ $(function(){
 		num++;
 
 		if(num>5){
-		alert('´õÀÌ»ó ´Ã¸±¼ö ¾ø½À´Ï´Ù.');
+		alert('ë”ì´ìƒ ëŠ˜ë¦´ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		num=5;
 		}
 		$('[name="numberPartUpDown"]').text(num);
@@ -124,7 +124,7 @@ $(function(){
 		var num = parseInt(stat,10);
 		num--;
 		if(num<=0){
-		alert('´õÀÌ»ó ÁÙÀÏ¼ö ¾ø½À´Ï´Ù.');
+		alert('ë”ì´ìƒ ì¤„ì¼ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		num =1;
 		}
 		$('[name="numberPartUpDown"]').text(num);
@@ -137,24 +137,24 @@ $(function(){
 <body>
  <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/royalTable/item/µÈÀå±¹.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="100%" height="100%">
+     <img src="/royalTable/item/ëœìž¥êµ­.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="100%" height="100%">
     </div>
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">¹Ì¿ª±¹</h1><br>
-       <span class="w3-center" style="font-size: 40px; margin-left:5%;">¡Ù¡Ù¡Ù¡Ù¡Ù</span>
-       <span class="w3-center" style="margin-left:5%;font-size: 20px;">ÆòÁ¡  4.5<span style="font-size: 10px;" >(°í°´ÈÄ±â : 3°Ç)</span></span>
+      <h1 class="w3-center">ë¯¸ì—­êµ­</h1><br>
+       <span class="w3-center" style="font-size: 40px; margin-left:5%;">â˜†â˜†â˜†â˜†â˜†</span>
+       <span class="w3-center" style="margin-left:5%;font-size: 20px;">í‰ì   4.5<span style="font-size: 10px;" >(ê³ ê°í›„ê¸° : 3ê±´)</span></span>
     <div class="w3-container">
 		  <table class="w3-table w3-bordered" >
 		    <tr>
-		      <th class="w3-center">ÆÇ¸Å°¡°Ý</th>
+		      <th class="w3-center">íŒë§¤ê°€ê²©</th>
 		      <td class="w3-center"><span id="price">2900</span></td>
 		    </tr>
 		    <tr>
 		      <th class="w3-center">category</th>
-		      <td class="w3-center" >±âÅ¸</td>
+		      <td class="w3-center" >ê¸°íƒ€</td>
 		    </tr>
 		    <tr>
-		      <th class="w3-center"><h4>¸Þ´º ¼ö·®</h4></th>
+		      <th class="w3-center"><h4>ë©”ë‰´ ìˆ˜ëŸ‰</h4></th>
 		      <td class="w3-center" >
 		      	<div class="number">
 		      	  <button type="button" class="btn btn-light" id="decreaseQuantity">-</button>
@@ -164,7 +164,7 @@ $(function(){
 			</td>
 		    </tr>
 		    <tr>
-		      <th class="w3-center">¹Ì¿ª</th>
+		      <th class="w3-center">ë¯¸ì—­</th>
 		       <td class="w3-center">   	<div class="number">
 		      	  <button type="button" class="btn btn-light" id="decreaseMain">-</button>
 					<span id="numberMainUpDown">1</span>
@@ -182,7 +182,7 @@ $(function(){
 		      </th>
 		    </tr>
 		    <tr>
-		      	<th class="w3-center">µÈÀå</th>
+		      	<th class="w3-center">ëœìž¥</th>
 		      	 <td class="w3-center"><div class="number">
 		      	  <button type="button" class="btn btn-light" name="decreasePartMain">-</button>
 					<span name="numberPartUpDown">1</span>
@@ -190,19 +190,19 @@ $(function(){
 			</div></td>
 		    </tr>
 		    <tr>
-		      	<th class="w3-center">¼Ò°í±â</th>
+		      	<th class="w3-center">ì†Œê³ ê¸°</th>
 		      	 <td class="w3-center">3</td>
 		    </tr>
 		    <tr>
-				<th class="w3-center">ÃÑ ÆÇ¸Å±Ý¾×</th>
+				<th class="w3-center">ì´ íŒë§¤ê¸ˆì•¡</th>
 				<td class="w3-center"> <span id="totprice" style="font-size:25px;"></span></td>
 		    </tr>
 		    <tr>
 		     	<th class="w3-center" colspan="2">
 		     	  <a href="#"><button class="w3-btn w3-white w3-border w3-border-red w3-round-large">
-		     	Àå¹Ù±¸´Ï</button></a>
+		     	ìž¥ë°”êµ¬ë‹ˆ</button></a>
 		     	 <a href="#"><button class="w3-btn w3-white w3-border w3-border-blue w3-round-large">
-		     	±¸¸ÅÇÏ±â</button></a>
+		     	êµ¬ë§¤í•˜ê¸°</button></a>
 		     	</th>
 		    </tr>
 		  </table>
@@ -214,30 +214,30 @@ $(function(){
    	<div class="w3-main w3-content w3-padding"
 		style="max-width: 1200px; margin-top: 100px">
 		  
-      <h3>ÃßÃµÁ¦Ç°</h3>
+      <h3>ì¶”ì²œì œí’ˆ</h3>
 	 <a href="#" style="float:right;"><button class="w3-btn w3-white w3-border w3-border-white w3-round-large">
-		     	´õº¸±â + </button></a>
+		     	ë”ë³´ê¸° + </button></a>
 		<div class="w3-row-padding w3-padding-16 w3-center" id="food">
 			<div class="w3-quarter">
-				<img src="/royalTable/item/µÅÁöºÒ°í±â.jpg" alt="µÅÁöºÒ°í±â" style="width: 100%">
-				<h3>µÅÁöºÒ°í±â</h3>
-				<p>5900¿ø</p>
+				<img src="/royalTable/item/ë¼ì§€ë¶ˆê³ ê¸°.jpg" alt="ë¼ì§€ë¶ˆê³ ê¸°" style="width: 100%">
+				<h3>ë¼ì§€ë¶ˆê³ ê¸°</h3>
+				<p>5900ì›</p>
 			</div>
 			<div class="w3-quarter">
-				<img src="/royalTable/item/µÅÁöºÒ°í±â.jpg" alt="µÅÁöºÒ°í±â" style="width: 100%;">
-					<h3>µÅÁöºÒ°í±â</h3>
-				<p>5900¿ø</p>
+				<img src="/royalTable/item/ë¼ì§€ë¶ˆê³ ê¸°.jpg" alt="ë¼ì§€ë¶ˆê³ ê¸°" style="width: 100%;">
+					<h3>ë¼ì§€ë¶ˆê³ ê¸°</h3>
+				<p>5900ì›</p>
 			</div>
 			<div class="w3-quarter">
-				<img src="/royalTable/item/µÅÁöºÒ°í±â.jpg" alt="Cherries" style="width: 100%">
-					<h3>µÅÁöºÒ°í±â</h3>
-				<p>5900¿ø</p>
+				<img src="/royalTable/item/ë¼ì§€ë¶ˆê³ ê¸°.jpg" alt="Cherries" style="width: 100%">
+					<h3>ë¼ì§€ë¶ˆê³ ê¸°</h3>
+				<p>5900ì›</p>
 			</div>
 			<div class="w3-quarter">
-				<img src="/royalTable/item/µÅÁöºÒ°í±â.jpg" alt="Pasta and Wine"
+				<img src="/royalTable/item/ë¼ì§€ë¶ˆê³ ê¸°.jpg" alt="Pasta and Wine"
 					style="width: 100%">
-					<h3>µÅÁöºÒ°í±â</h3>
-				<p>5900¿ø</p>
+					<h3>ë¼ì§€ë¶ˆê³ ê¸°</h3>
+				<p>5900ì›</p>
 			</div>
 		</div>
 		<hr>
@@ -247,13 +247,13 @@ $(function(){
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item" style="width:33.3%">
-      <a class="nav-link active" data-toggle="tab" href="#home">Á¦Ç°Á¤º¸</a>
+      <a class="nav-link active" data-toggle="tab" href="#home">ì œí’ˆì •ë³´</a>
     </li>
     <li class="nav-item" style="width:33.3%">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Á¦Ç°Á¤º¸°í½Ã</a>
+      <a class="nav-link" data-toggle="tab" href="#menu1">ì œí’ˆì •ë³´ê³ ì‹œ</a>
     </li>
     <li class="nav-item" style="width:33.3%">
-      <a class="nav-link" data-toggle="tab" href="#menu2">°í°´ÈÄ±â</a>
+      <a class="nav-link" data-toggle="tab" href="#menu2">ê³ ê°í›„ê¸°</a>
     </li>
   </ul>
 
@@ -268,61 +268,61 @@ $(function(){
   		<table class="table">
     <thead>
       <tr>
-        <td style="width:30%;" class="table-secondary w3-center">Ç°¸ñÁ¦Á¶º¸°í¹øÈ£</td>
+        <td style="width:30%;" class="table-secondary w3-center">í’ˆëª©ì œì¡°ë³´ê³ ë²ˆí˜¸</td>
         <td style="width:70%;">20090086449308</td>
       </tr>
     </thead>
     <tbody>
       <tr>
-       <td class="table-secondary w3-center">Æ¯Á¤¼ººÐ</td>
-        <td>´ß°í±â13.9%, È²±â0.2%
+       <td class="table-secondary w3-center">íŠ¹ì •ì„±ë¶„</td>
+        <td>ë‹­ê³ ê¸°13.9%, í™©ê¸°0.2%
 </td>
       </tr>
      <tr>
-       <td class="table-secondary w3-center">½ÄÇ°ÀÇ À¯Çü</td>
-        <td>Áï¼®Á¶¸®½ÄÇ°/°¡¿­ÇÏ¿© ¼·ÃëÇÏ´Â ³Ãµ¿½ÄÇ°</td>
+       <td class="table-secondary w3-center">ì‹í’ˆì˜ ìœ í˜•</td>
+        <td>ì¦‰ì„ì¡°ë¦¬ì‹í’ˆ/ê°€ì—´í•˜ì—¬ ì„­ì·¨í•˜ëŠ” ëƒ‰ë™ì‹í’ˆ</td>
       </tr>
        <tr>
-       <td class="table-secondary w3-center">»ý»êÀÚ ¹× ¼ÒÀçÁö</td>
-        <td>(ÁÖ)µ¿¿øÈ¨Çªµå °¡»ê°øÀå/¼­¿ïÆ¯º°½Ã ±ÝÃµ±¸ ¼­ºÎ»û±æ 280</td>
+       <td class="table-secondary w3-center">ìƒì‚°ìž ë° ì†Œìž¬ì§€</td>
+        <td>(ì£¼)ë™ì›í™ˆí‘¸ë“œ ê°€ì‚°ê³µìž¥/ì„œìš¸íŠ¹ë³„ì‹œ ê¸ˆì²œêµ¬ ì„œë¶€ìƒ›ê¸¸ 280</td>
       </tr>
        <tr>
-       <td class="table-secondary w3-center">À¯Åë±âÇÑ ¶Ç´Â Ç°ÁúÀ¯Áö±âÇÑ</td>
-        <td>Á¦Á¶ÀÏ·ÎºÎÅÍ ³Ãµ¿ 180ÀÏ</td>
+       <td class="table-secondary w3-center">ìœ í†µê¸°í•œ ë˜ëŠ” í’ˆì§ˆìœ ì§€ê¸°í•œ</td>
+        <td>ì œì¡°ì¼ë¡œë¶€í„° ëƒ‰ë™ 180ì¼</td>
       </tr>
        <tr>
-       <td class="table-secondary w3-center">³»¿ë·®</td>
+       <td class="table-secondary w3-center">ë‚´ìš©ëŸ‰</td>
         <td>650 g</td>
       </tr>
        <tr>
-       <td class="table-secondary w3-center">¿øÀç·á¸í ¹× ÇÔ·®</td>
-        <td>¾ßÃ¤À°¼ö{¹«(±¹³»»ê),´ëÆÄ(±¹³»»ê),
-        ºÏ¾î»À,´Ù½Ã¸¶,Ç¥°í¹ö¼¸},
-        ¹«(±¹³»»ê),´ß°í±â(±¹³»»ê),
-        ´ëÆÄ,ÃµÀÏ¿°,È²±â(Áß±¹»ê),
-        WÇªµå¸¶ÄÏÀÚ¿¬Àç·á¹Í½ºA,
-        ¸¶´Ã,L-±Û·çÅ½»ê³ªÆ®·ýÁ¦Á¦{L-±Û·çÅ½»ê³ªÆ®·ý(Çâ¹ÌÁõÁøÁ¦),
-        5'-¸®º¸´ºÅ¬·¹¿ÀÆ¼µåÀÌ³ªÆ®·ý},
-        ÈÄÃß *´ëµÎ,¹Ð,´ß°í±â,¼è°í±â ÇÔÀ¯</td>
+       <td class="table-secondary w3-center">ì›ìž¬ë£Œëª… ë° í•¨ëŸ‰</td>
+        <td>ì•¼ì±„ìœ¡ìˆ˜{ë¬´(êµ­ë‚´ì‚°),ëŒ€íŒŒ(êµ­ë‚´ì‚°),
+        ë¶ì–´ë¼ˆ,ë‹¤ì‹œë§ˆ,í‘œê³ ë²„ì„¯},
+        ë¬´(êµ­ë‚´ì‚°),ë‹­ê³ ê¸°(êµ­ë‚´ì‚°),
+        ëŒ€íŒŒ,ì²œì¼ì—¼,í™©ê¸°(ì¤‘êµ­ì‚°),
+        Wí‘¸ë“œë§ˆì¼“ìžì—°ìž¬ë£Œë¯¹ìŠ¤A,
+        ë§ˆëŠ˜,L-ê¸€ë£¨íƒì‚°ë‚˜íŠ¸ë¥¨ì œì œ{L-ê¸€ë£¨íƒì‚°ë‚˜íŠ¸ë¥¨(í–¥ë¯¸ì¦ì§„ì œ),
+        5'-ë¦¬ë³´ë‰´í´ë ˆì˜¤í‹°ë“œì´ë‚˜íŠ¸ë¥¨},
+        í›„ì¶” *ëŒ€ë‘,ë°€,ë‹­ê³ ê¸°,ì‡ ê³ ê¸° í•¨ìœ </td>
       </tr>
          <tr>
-       <td class="table-secondary w3-center">¼·Ãë¹æ¹ý</td>
-        <td>°¡¿­ ÈÄ ¼·Ãë</td>
+       <td class="table-secondary w3-center">ì„­ì·¨ë°©ë²•</td>
+        <td>ê°€ì—´ í›„ ì„­ì·¨</td>
       </tr>
          <tr>
-       <td class="table-secondary w3-center">º¸°ü¹æ¹ý / Ãë±Þ¹æ¹ý</td>
-        <td>³Ãµ¿º¸°ü(-18¡ÉÀÌÇÏ)/ÀÌ¹Ì ³Ãµ¿µÈ ¹Ù ÀÖÀ¸´Ï ÇØµ¿ ÈÄ Àç³Ãµ¿½ÃÅ°Áö ¸¶½Ã±æ ¹Ù¶ø´Ï´Ù.</td>
+       <td class="table-secondary w3-center">ë³´ê´€ë°©ë²• / ì·¨ê¸‰ë°©ë²•</td>
+        <td>ëƒ‰ë™ë³´ê´€(-18â„ƒì´í•˜)/ì´ë¯¸ ëƒ‰ë™ëœ ë°” ìžˆìœ¼ë‹ˆ í•´ë™ í›„ ìž¬ëƒ‰ë™ì‹œí‚¤ì§€ ë§ˆì‹œê¸¸ ë°”ëžë‹ˆë‹¤.</td>
       </tr>
          <tr>
-       <td class="table-secondary w3-center">Æ÷ÀåÀçÁú</td>
-        <td>¿ë±â:PP,»ó´ÜÇÊ¸§:PE</td>
+       <td class="table-secondary w3-center">í¬ìž¥ìž¬ì§ˆ</td>
+        <td>ìš©ê¸°:PP,ìƒë‹¨í•„ë¦„:PE</td>
       </tr>
         <tr>
-       <td class="table-secondary w3-center">¾Ë·¹¸£±â ½ÄÇ°</td>
-        <td>º» Á¦Ç°Àº ³­·ù,¿ìÀ¯,¸Þ¹Ð,¶¥Äá,°íµî¾î,°Ô,»õ¿ì,µÅÁö°í±â,º¹¼þ¾Æ,Åä¸¶Åä,¾ÆÈ²»ê·ù,È£µÎ,¿ÀÂ¡¾î,Á¶°³·ù¸¦ »ç¿ëÇÑ Á¦Ç°°ú °°Àº Á¦Á¶ ½Ã¼³¿¡¼­ Á¦Á¶ÇÏ°í ÀÖ½À´Ï´Ù.</td>
+       <td class="table-secondary w3-center">ì•Œë ˆë¥´ê¸° ì‹í’ˆ</td>
+        <td>ë³¸ ì œí’ˆì€ ë‚œë¥˜,ìš°ìœ ,ë©”ë°€,ë•…ì½©,ê³ ë“±ì–´,ê²Œ,ìƒˆìš°,ë¼ì§€ê³ ê¸°,ë³µìˆ­ì•„,í† ë§ˆí† ,ì•„í™©ì‚°ë¥˜,í˜¸ë‘,ì˜¤ì§•ì–´,ì¡°ê°œë¥˜ë¥¼ ì‚¬ìš©í•œ ì œí’ˆê³¼ ê°™ì€ ì œì¡° ì‹œì„¤ì—ì„œ ì œì¡°í•˜ê³  ìžˆìŠµë‹ˆë‹¤.</td>
       </tr>
        <tr>
-       <td class="table-secondary w3-center">¼ÒºñÀÚ»ó´ã °ü·Ã ÀüÈ­¹øÈ£</td>
+       <td class="table-secondary w3-center">ì†Œë¹„ìžìƒë‹´ ê´€ë ¨ ì „í™”ë²ˆí˜¸</td>
         <td>1644-6844</td>
       </tr>
     </tbody>
@@ -333,11 +333,11 @@ $(function(){
    	 
    	 <div id="menu2" class="container tab-pane fade"><br>
       <div class="container">
-     <span class="w3-center" style="font-size: 40px;">»ç¿ëÀÚ ÃÑ ÆòÁ¡</span>
-       <span class="w3-center" style="font-size: 40px; margin-left:5%;">¡Ù¡Ù¡Ù¡Ù¡Ù</span>
-       <span  class="w3-center" style="margin-left:5%;font-size: 20px;">ÆòÁ¡  4.5<span style="font-size: 10px;" >(°í°´ÈÄ±â : 3°Ç)</span></span>
+     <span class="w3-center" style="font-size: 40px;">ì‚¬ìš©ìž ì´ í‰ì </span>
+       <span class="w3-center" style="font-size: 40px; margin-left:5%;">â˜†â˜†â˜†â˜†â˜†</span>
+       <span  class="w3-center" style="margin-left:5%;font-size: 20px;">í‰ì   4.5<span style="font-size: 10px;" >(ê³ ê°í›„ê¸° : 3ê±´)</span></span>
         <a href="#" style="float:right;"><button class="w3-btn w3-white w3-border w3-border-white w3-round-large">
-		     	°í°´ÈÄ±âÀÛ¼º </button></a>
+		     	ê³ ê°í›„ê¸°ìž‘ì„± </button></a>
       </div>
       <hr>
     <div class="w3-container">
@@ -360,10 +360,10 @@ $(function(){
        </span>
        <script src="js/jquery-1.11.3.min.js"></script>
        <script src="js/star.js"></script>
-       <span class="w3-center" style="margin-left:2%">ÀÌ´ë¼º </span><span class="w3-center" style="margin-left:5%">2019.07.15</span>
+       <span class="w3-center" style="margin-left:2%">ì´ëŒ€ì„± </span><span class="w3-center" style="margin-left:5%">2019.07.15</span>
        <br>
        <p style="font-size: 20px;">
-       	¾È³çÇÏ¼¼¿ä. ºÒ°í±â°¡ ³Ê¹« ¸ÀÀÖ½À´Ï´Ù.
+       	ì•ˆë…•í•˜ì„¸ìš”. ë¶ˆê³ ê¸°ê°€ ë„ˆë¬´ ë§›ìžˆìŠµë‹ˆë‹¤.
        </p>
     </div>
   </div>

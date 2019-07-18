@@ -7,10 +7,13 @@ import org.springframework.web.servlet.*;
 @RequestMapping("item")
 public class ItemController {
  
+
  @RequestMapping("detail")
  public ModelAndView list() {
 	 ModelAndView mav = new ModelAndView();
 	 
 	 return mav;
  }
+
+
 }
