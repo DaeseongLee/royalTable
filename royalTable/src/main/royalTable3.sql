@@ -20,6 +20,7 @@ DROP TABLE IF EXISTS user;
 
 /* Create Tables */
 
+-- 게시판
 CREATE TABLE board
 (
 	-- 게시판번호
@@ -41,6 +42,7 @@ CREATE TABLE board
 );
 
 
+-- 주문정보
 CREATE TABLE buyerInfo
 (
 	-- 주문번호
@@ -67,6 +69,7 @@ CREATE TABLE buyerInfo
 );
 
 
+-- 장바구니
 CREATE TABLE cart
 (
 	no int(10) NOT NULL AUTO_INCREMENT,
@@ -83,6 +86,7 @@ CREATE TABLE cart
 );
 
 
+-- 장바구니메뉴재료
 CREATE TABLE cartMenuIngre
 (
 	no int(10) NOT NULL,
@@ -93,6 +97,7 @@ CREATE TABLE cartMenuIngre
 );
 
 
+-- 재료
 CREATE TABLE ingre
 (
 	ingreNo int(1000) NOT NULL,
@@ -109,6 +114,7 @@ CREATE TABLE ingre
 );
 
 
+-- 메뉴재료
 CREATE TABLE ingrePerMenu
 (
 	ingreNo int(1000) NOT NULL,
@@ -127,6 +133,7 @@ CREATE TABLE ingrePerMenu
 );
 
 
+-- 메뉴
 CREATE TABLE menu
 (
 	menuNo int(100) NOT NULL AUTO_INCREMENT,
@@ -144,6 +151,7 @@ CREATE TABLE menu
 );
 
 
+-- 주문메뉴
 CREATE TABLE orderMenu
 (
 	no int(1000) NOT NULL AUTO_INCREMENT,
@@ -157,6 +165,7 @@ CREATE TABLE orderMenu
 );
 
 
+-- 주문메뉴재료
 CREATE TABLE orderMenuIngre
 (
 	no int(1000) NOT NULL,
@@ -167,6 +176,7 @@ CREATE TABLE orderMenuIngre
 );
 
 
+-- 적립금
 CREATE TABLE point
 (
 	no int(1000) NOT NULL AUTO_INCREMENT,
@@ -181,6 +191,7 @@ CREATE TABLE point
 );
 
 
+-- 후기
 CREATE TABLE review
 (
 	-- 번호
@@ -193,6 +204,7 @@ CREATE TABLE review
 );
 
 
+-- 고객
 CREATE TABLE user
 (
 	userId varchar(50) NOT NULL,

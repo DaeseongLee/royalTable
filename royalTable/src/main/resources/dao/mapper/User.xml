@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- /src/main/resources/dao/mapper/User.xml -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.mapper.UserMapper">
+	<select id="list" resultType="User" parameterType="map">
+		select * from user
+		<if test="userId != null">
+			where userid=#{userId}
+		</if>
+<!-- 
+	idchks가 null이 아닐때 where userid in ('test1', 'test3', 'admin', ...)
+-->
+		<if test="idchks != null">
+			where userid in
+			<foreach collection="idchks" item="id" open="(" close=")" separator=",">
+				#{id}
+			</foreach>
+			<!-- collection => 객체들이 여러개 모여있다, arrayList도 collection에 사용가능함 
+					#은 자료형과 값을 같이 가지고 있다는 뜻
+			-->
+		</if>
+	</select>
+</mapper>
